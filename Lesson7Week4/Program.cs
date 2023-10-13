@@ -4,6 +4,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Exercise8.goToUniversity();
+        Exercise9.Temperature();
     }
 }
