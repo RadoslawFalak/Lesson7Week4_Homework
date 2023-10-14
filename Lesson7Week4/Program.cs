@@ -4,6 +4,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Exercise12.NameDayOfTheWeek();
+        Exercise13.SimplyCalculator();
     }
 }
