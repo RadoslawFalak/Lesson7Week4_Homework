@@ -4,6 +4,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Exercise11.GradesNumberToText();
+        Exercise12.NameDayOfTheWeek();
     }
 }
