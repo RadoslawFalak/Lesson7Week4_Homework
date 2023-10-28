@@ -28,13 +28,13 @@ internal class Program
             switch (choice)
             {
                 case 1:
-                    Exercise1.isEqual();
+                    Exercise1.IsEqual();
                     break;
                 case 2:
-                    Exercise2.isEvenOrNot();
+                    Exercise2.IsEvenOrNot();
                     break;
                 case 3:
-                    Exercise3.isPositiveOrNot();
+                    Exercise3.IsPositiveOrNot();
                     break;
                 case 4:
                     Exercise4.IsItLeapYear();
@@ -43,13 +43,13 @@ internal class Program
                     Exercise5.CanBePresident();
                     break;
                 case 6:
-                    Exercise6.howHight();
+                    Exercise6.HowHight();
                     break;
                 case 7:
-                    Exercise7.greatestValue();
+                    Exercise7.GreatestValue();
                     break;
                 case 8:
-                    Exercise8.goToUniversity();
+                    Exercise8.GoToUniversity();
                     break;
                 case 9:
                     Exercise9.Temperature();

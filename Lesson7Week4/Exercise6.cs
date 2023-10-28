@@ -8,7 +8,7 @@ namespace Lesson7Week4
 {
     internal class Exercise6
     {
-        public static void howHight()
+        public static void HowHight()
         {
             int userHight;
             string input = Console.ReadLine();
@@ -18,7 +18,7 @@ namespace Lesson7Week4
             {
                 Console.WriteLine("Jestes dzieckiem");
             }
-            else if (userHight > 120 && userHight <= 140)
+            else if (userHight >= 120 && userHight <= 140)
             {
                 Console.WriteLine("Jestes krasnoludem");
             }

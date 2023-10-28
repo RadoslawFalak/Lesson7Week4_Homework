@@ -8,9 +8,10 @@ namespace Lesson7Week4
 {
     internal class Exercise1
     {
-        public static void isEqual()
+        public static void IsEqual()
         {
-            int a, b;
+            int a; 
+            int b;
 
             string input = Console.ReadLine();
             int.TryParse(input, out a);

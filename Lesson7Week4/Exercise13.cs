@@ -37,11 +37,11 @@ namespace Lesson7Week4
                     Console.WriteLine(firstValue * secondValue);
                     break;
                 case 4:
-                    if (firstValue != 0 && secondValue != 0)
+                    if (secondValue != 0)
                     {
                         Console.WriteLine(firstValue / secondValue);
                     }
-                    else if (firstValue == 0 || secondValue == 0)
+                    else if (secondValue == 0)
                     {
                         Console.WriteLine("Nie dzielimy przez 0");
                     }

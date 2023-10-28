@@ -8,7 +8,7 @@ namespace Lesson7Week4
 {
     internal class Exercise8
     {
-        public static void goToUniversity()
+        public static void GoToUniversity()
         {
             int mathResult, pchysicsResult, chemistryResult;
 
@@ -19,7 +19,7 @@ namespace Lesson7Week4
             input = Console.ReadLine();
             int.TryParse(input, out chemistryResult);
 
-            if ( mathResult > 70 && pchysicsResult > 55 && chemistryResult > 45 || mathResult + pchysicsResult + chemistryResult > 180)
+            if ( mathResult > 70 && pchysicsResult > 55 && chemistryResult > 45 && mathResult + pchysicsResult + chemistryResult > 180)
             {
                 Console.WriteLine("Kandydat dopuszczony do rekrutacji");
             }

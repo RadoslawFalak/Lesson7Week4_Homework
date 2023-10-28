@@ -11,12 +11,12 @@ namespace Lesson7Week4
         enum DaysOfTheWeek
         {
             Poniedzialek = 1,
-            Wtorek,
-            Sroda,
-            Czwartek,
-            Piatek,
-            Sobota,
-            Niedziela
+            Wtorek = 2,
+            Sroda = 3,
+            Czwartek = 4,
+            Piatek = 5,
+            Sobota = 6,
+            Niedziela = 7
         }
         public static void NameDayOfTheWeek()
         {

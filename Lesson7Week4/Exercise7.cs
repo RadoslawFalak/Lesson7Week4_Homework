@@ -8,7 +8,7 @@ namespace Lesson7Week4
 {
     internal class Exercise7
     {
-        public static void greatestValue()
+        public static void GreatestValue()
         {
             int a, b, c;
 
