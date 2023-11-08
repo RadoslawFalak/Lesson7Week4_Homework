@@ -19,11 +19,11 @@ namespace Lesson7Week4
             input = Console.ReadLine();
             int.TryParse(input, out chemistryResult);
 
-            if ( mathResult > 70 && pchysicsResult > 55 && chemistryResult > 45 && mathResult + pchysicsResult + chemistryResult > 180)
+            if (mathResult > 70 && pchysicsResult > 55 && chemistryResult > 45 && mathResult + pchysicsResult + chemistryResult > 180)
             {
                 Console.WriteLine("Kandydat dopuszczony do rekrutacji");
             }
-            else if ( mathResult + pchysicsResult > 150 || mathResult + chemistryResult > 150)
+            else if (mathResult + pchysicsResult > 150 || mathResult + chemistryResult > 150)
             {
                 Console.WriteLine("Kandydat dopuszczony do rekrutacji");
             }

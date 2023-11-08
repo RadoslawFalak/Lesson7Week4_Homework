@@ -20,15 +20,15 @@ namespace Lesson7Week4
             intCheck = int.TryParse(input, out c);
 
 
-            if ( intCheck != true)
+            if (intCheck != true)
             {
                 Console.WriteLine("Musisz podac co najmniej jedna liczbe !");
             }
-            else if ( a > b && a > c ) 
+            else if (a > b && a > c) 
             {
                 Console.WriteLine(a + " jest najwieksza z podanych");
             }
-            else if ( b > c )
+            else if (b > c)
             {
                 Console.WriteLine(b + " jest najwieksza z podanych");
             }

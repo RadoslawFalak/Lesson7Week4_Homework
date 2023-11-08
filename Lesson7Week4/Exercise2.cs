@@ -14,7 +14,7 @@ namespace Lesson7Week4
             string input = Console.ReadLine();
             int.TryParse(input, out userNumber);
 
-            if ( userNumber %2 == 0 )
+            if (userNumber %2 == 0)
             {
                 Console.WriteLine(userNumber + " jest liczba parzysta");
             }           

@@ -19,7 +19,7 @@ namespace Lesson7Week4
             input = Console.ReadLine();
             int.TryParse(input, out c);
 
-            if ( a + b > c && a + c > b && b + c > a)
+            if (a + b > c && a + c > b && b + c > a)
             {
                 Console.WriteLine("Można zbudować trójkąt");
             }

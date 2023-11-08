@@ -18,7 +18,7 @@ namespace Lesson7Week4
             input = Console.ReadLine();
             int.TryParse(input, out b);
 
-            if ( a == b )
+            if (a == b)
             {
                 Console.WriteLine(a + " i " + b + " sa rowne");
             }

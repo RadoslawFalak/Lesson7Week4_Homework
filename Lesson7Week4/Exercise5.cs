@@ -14,21 +14,21 @@ namespace Lesson7Week4
             string input = Console.ReadLine();
             int.TryParse(input, out userAge);
 
-            if ( userAge >= 21)
+            if (userAge >= 35)
             {
-                Console.WriteLine("Mozesz zostac poslem");
+                Console.WriteLine("Mozesz zostac poslem, senatorem lub prezydentem");
             }
             else if (userAge >= 30)
             {
                 Console.WriteLine("Mozesz zostac poslem lub senatorem");
             }
-            else if (userAge >= 35)
+            else if (userAge >= 21)
             {
-                Console.WriteLine("Mozesz zostac poslem, senatorem lub prezydentem");
+                Console.WriteLine("Mozesz zostac poslem");
             }
             else
             {
-                Console.WriteLine("Nie możesz sprawować publicznej posla, senatora lub prezydenta");
+                Console.WriteLine("Nie możesz sprawować funkcji publicznej posla, senatora lub prezydenta");
             }
         }
     }
